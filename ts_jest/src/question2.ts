@@ -3,8 +3,9 @@
 // element har tagits bort och endast unika element finns kvar.
 
 
-function removeDuplicates(array: number[]) {
+export function removeDuplicates(array: number[]) {
     // Din kod här
+    return Array.from(new Set(array));
 }
 
 
